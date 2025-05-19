@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define environment variables to be used in the pipeline
-        COMPOSE_PROJECT_NAME = "myCIProjectDeno" // Changed to be a bit more specific
+        COMPOSE_PROJECT_NAME = "devops" // Changed to be a bit more specific
         COMPOSE_FILE_PATH = "docker-compose.yaml" // Using your actual filename
         APP_RUN_DURATION_SECONDS = 30 // How long the app should run
     }
